@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "choruspreview",
+  "version": "${version}",
+  "name": "Chorus Preview",
+  "description": "Created by razorbow. Pose-aware chorus fruit destination preview and probability estimate.",
+  "authors": ["razorbow"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.choruspreview.ChorusPreview"],
+    "modmenu": ["dev.choruspreview.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": { "modmenu": ">=17.0.0" }
+}
